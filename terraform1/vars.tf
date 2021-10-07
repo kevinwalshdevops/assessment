@@ -60,7 +60,7 @@ variable "external_allowed_cidrs" {
 //instance
 variable "custom_ami" {
   description = "Provide your own AWS AMI to use - useful if you need specific tools on the bastion"
-  default     = "ami-0a0a32e280a624f6f"
+  default     = "ami-2e90b24b"
 }
 variable "name_prefix" {
   description = "Prefix to be applied to names of all resources"
